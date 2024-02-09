@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/icon.jpg" alt="icon.jpg" class="icon">
+                <span style="font-weight: 600;" class="px-2 navbar-brand-custom">Kai Lau</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item nav-item-custom">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-item-custom">
+                        <a class="nav-link active" href="about.html">About Me</a>
+                    </li>
+                    <li class="nav-item nav-item-custom">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container-sm pt-3 body-content">
+        <h1>ML Projects</h1>
+        <p style="font-size: 19px;">Check out my various Machine Learning projects below, utilizing tools like
+            Tensorflow, Scikit-Learn, and implementations from scratch!</p>
+        <hr>
+        <br>
+        <ul class="card-container">
+            <!-- Playing Card Classification Card -->
+            <li class="card rounded-4 shadow-lg">
+                <div class="card-body">
+                    <div class="h4 fw-bold mb-4">
+                        Playing Card Classification
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="img-fluid mb-2 card-img"
+                                src="images/card-detection.png"
+                                alt="card-detection">
+                        </div>
+                        <div class="col-sm-7">
+                            <p class="card-text">Playing Card Classification using transfer learning of the
+                                EfficientNetV2B0 model in
+                                Tensorflow. This multiclass classification model was trained on a sythetically generated
+                                dataset of over
+                                250,000 bicycle playing cards using Pillow. While a test dataset was not available,
+                                testing via webcam
+                                shows promising results as shown on the YouTube link.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dog Breed Classification Card -->
+            <li class="card rounded-4 shadow-lg">
+                <div class="card-body">
+                    <div class="h4 fw-bold mb-4">
+                        Dog Breed Classification
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="img-fluid mb-2 card-img"
+                                src="images/dog-classification.png"
+                                alt="dog-classification">
+                        </div>
+                        <div class="col-sm-7">
+                            <p class="card-text">This multiclass classification model was trained on 10222 labeled
+                                images and 120 classes of dog breeds. During a train-test split of 90:10, this model
+                                achieved an accuracy score of 82.31%.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tweet Sentiment Analysis Card -->
+            <li class="card rounded-4 shadow-lg">
+                <div class="card-body">
+                    <div class="h4 fw-bold mb-4">
+                        Tweet Sentiment Analysis
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="img-fluid mb-2 card-img"
+                                src="images/tweet-sentiment.png"
+                                alt="tweet-sentiment">
+                        </div>
+                        <div class="col-sm-7">
+                            <p class="card-text">Tweet sentiment analysis using Scikit-learn Logistic Regression.
+                                This model was trained on ~1.6 million labeled (positive or negative sentiment) tweets.
+                                It has acheived a test accuracy of 80%, and a full dataset accuracy of 83%.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MLR Card -->
+            <li class="card rounded-4 shadow-lg">
+                <div class="card-body">
+                    <div class="h4 fw-bold mb-4">
+                        Multiple Linear Regression from Scratch
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="img-fluid mb-2 card-img"
+                                src="images/multlinreg.png"
+                                alt="multlinreg">
+                        </div>
+                        <div class="col-sm-7">
+                            <p class="card-text">Multiple Linear Regression implemented from scratch using basic
+                                math/calculus and NumPy. This implementation was written for an educational YouTube
+                                video that teaches viewers the math, intuition, and implementation of Multiple Linear
+                                Regression.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </section>
+    <footer>
+        <div class="container-sm footer-content">
+            <a href="https://www.linkedin.com/in/dylan-kai-lau/"><img src="images/linkedin.png" alt="linkedin.png"
+                    class="icon"></a>
+            <a href="https://github.com/kailau02"><img src="images/github.png" alt="github.png" class="icon"></a>
+            <a href="https://www.youtube.com/channel/UCwvUYyi8rkCkzSWTd3ol53A"><img src="images/youtube.png"
+                    alt="youtube.png" class="icon"></a>
+            <a href="mailto:kailauapps@gmail.com"><img src="images/mail.svg" alt="mail.svg" class="icon"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

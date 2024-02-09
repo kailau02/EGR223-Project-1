@@ -1,0 +1,141 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background-color: #454545;
+}
+
+@media screen and (max-width: 576px){
+    .navbar-brand-custom {
+        display: none;
+    }
+}
+
+
+footer {
+    background-color: #454545;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.body-content {
+    flex: 1;
+}
+
+.navbar-custom {
+    padding: 0 20px;
+}
+
+.nav-item-custom {
+    padding-left: 10px;
+    font-size: 110%;
+}
+
+.icon {
+    width: 50px;
+    border-radius: 100px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill {
+    color: white;
+    background-color: rgb(65, 65, 65);
+    padding: 6px 12px;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#about-btn, #projects-btn {
+    padding: 12px 15px;
+    margin-right: 10px;
+}
+
+#about-btn {
+    background-color: #A0DCDC;
+    color: black;
+    border-color: #A0DCDC;
+}
+
+#about-btn:hover {
+    background-color: #88baba;
+}
+
+#about-btn:active {
+    background-color: #6d9595;
+}
+
+
+#projects-btn {
+    background-color: #E7BE55;
+    color: black;
+    border-color: #d5aa3c;
+}
+
+#projects-btn:hover {
+    background-color: #cca646;
+}
+
+#projects-btn:active {
+    background-color: #a68636;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 0 20px 0;
+    padding: 0;
+}
+
+.card {
+    background-color: rgb(72, 72, 72) !important;
+    padding: 0 10px;
+}
+
+
+
+.card-text {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .card-text {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-text {
+        font-size: 15px;
+    }
+}
+
+img {
+    border-radius: 10px;
+}
+
+.card-experience-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
