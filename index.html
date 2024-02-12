@@ -41,7 +41,7 @@
         <hr>
         <br>
         <h3>My Skills:</h3>
-        <div class="skills-container">
+        <div class="skills-container mb-5">
             <div class="skill">Java</div>
             <div class="skill">SQL</div>
             <div class="skill">HTML/CSS/JS</div>
@@ -56,16 +56,36 @@
             <div class="skill">GCP</div>
             <div class="skill">GitHub</div>
         </div>
-        <br>
-        <br>
-        <br>
         <p style="font-size: 18px;">Check out the links below to learn about my journey and view a few of my machine learning projects!</p>
-        <div class="pb-5">
+        <div class="mb-4">
             <a href="about.html" class="btn btn-primary btn-lg" id="about-btn">About Me</a>
             <a href="projects.html" class="btn btn-primary btn-lg" id="projects-btn">ML Projects</a>
         </div>
+        <hr>
 
     </main>
+    <section class="container mt-5 mb-5">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+          <div class="mb-2">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="mb-2">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" name="email">
+          </div>
+          <div class="mb-2">
+            <label for="subject">Subject:</label>
+            <input type="text" class="form-control" id="subject" name="subject">
+          </div>
+          <div class="mb-2">
+            <label for="content">Message:</label>
+            <textarea class="form-control" id="content" name="content" rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-secondary">Send Message</button>
+        </form>
+    </section>
     <footer>
         <div class="container-sm footer-content">
             <a href="https://www.linkedin.com/in/dylan-kai-lau/"><img src="images/linkedin.png" alt="linkedin.png" class="icon"></a>
